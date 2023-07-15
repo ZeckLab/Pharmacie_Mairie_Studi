@@ -1,5 +1,11 @@
 # PharmacieMairieStudi
 
+## Description of Project
+
+Front-end project in Angular for studi. The goal is to create a front-end application for a pharmacy's showcase website.
+
+## For generate a Angular project
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.3.
 
 ## Development server
@@ -8,7 +14,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`. You can also use : `ng g c component-name` for a quickly generated comopnent.
+For example : If you want a HomeComponent, you write : ng g c home
+                HoursLocalisationComponent : ng g c hours-localisation
 
 ## Build
 
@@ -25,3 +33,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Authors
+- [@adeline64](https://github.com/adeline64)
+- [@ZeckLab](https://github.com/ZeckLab)
+- [@JohanCode2180100](https://github.com/JohanCode2180100)
