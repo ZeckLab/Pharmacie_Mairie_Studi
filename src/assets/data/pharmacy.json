@@ -4,7 +4,7 @@
       "id": "1",
       "category": "parapharmacie",
       "subcategory": "creme",
-      "image": "image/articles/creme_hydratante_avene.png",
+      "image": "images/articles/creme_hydratante_avene.png",
       "title": "Crème hydratante",
       "description": "Cette crème hydratante nourrit en profondeur la peau, la laissant douce et souple.",
       "summary": "Nourrit et adoucit la peau",
@@ -19,7 +19,7 @@
       "id": "2",
       "category": "pharmacie",
       "subcategory": "vitamines",
-      "image": "image/articles/La-Roche-Posay-Pure-Vitamin-C10.png",
+      "image": "images/articles/La-Roche-Posay-Pure-Vitamin-C10.png",
       "title": "Vitamine C",
       "description": "La vitamine C est un antioxydant puissant qui renforce le système immunitaire et favorise la santé générale.",
       "summary": "Renforce le système immunitaire",
@@ -380,13 +380,13 @@
       "stock": 35,
       "ingredients": ["3", "8"],
       "instructions": "Prendre un comprimé toutes les 4 à 6 heures selon les besoins. Ne pas dépasser la dose recommandée."
-    }    
+    }
   ],
   "brands": [
     {
       "id": "1",
       "name": "Avène",
-      "logo": "cimage/brands/Avene.png",
+      "logo": "assets/images/brands/Avene.png",
       "description": "Avène est une marque renommée dans le domaine de la pharmacie et de la parapharmacie, offrant une large gamme de produits de haute qualité pour le bien-être et la santé.",
       "tagline": "Votre santé, notre priorité",
       "country": "France",
@@ -396,7 +396,7 @@
     {
       "id": "2",
       "name": "La Roche-Posay",
-      "logo": "image/brands/logo2.jpg",
+      "logo": "assets/images/brands/logo2.jpg",
       "description": "La Roche-Posay est spécialisée dans la production de produits de beauté et de soins, offrant des solutions efficaces pour prendre soin de votre peau et de vos cheveux.",
       "tagline": "Révélez votre beauté naturelle",
       "country": "France",
@@ -406,7 +406,7 @@
     {
       "id": "3",
       "name": "Caudalie",
-      "logo": "image/brands/logo3.jpg",
+      "logo": "assets/images/brands/logo3.jpg",
       "description": "Caudalie propose des produits de santé et de bien-être pour toute la famille, avec un accent particulier sur le soulagement des allergies et des symptômes associés.",
       "tagline": "Prenez soin de vous, naturellement",
       "country": "France",
@@ -416,7 +416,7 @@
     {
       "id": "4",
       "name": "Doliprane",
-      "logo": "image/brands/logo4.jpg",
+      "logo": "assets/images/brands/logo4.jpg",
       "description": "Doliprane est une marque reconnue de comprimés antidouleur, offrant un soulagement efficace de la douleur et de la fièvre.",
       "tagline": "Le choix de confiance pour le soulagement de la douleur",
       "country": "France",
@@ -426,7 +426,7 @@
     {
       "id": "5",
       "name": "L'Oréal Paris",
-      "logo": "image/brands/logo5.jpg",
+      "logo": "assets/images/brands/logo5.jpg",
       "description": "L'Oréal Paris est une marque de renom dans le domaine des cosmétiques, offrant une large gamme de produits pour les soins de la peau, les cheveux et le maquillage.",
       "tagline": "Parce que vous le valez bien",
       "country": "France",
@@ -436,7 +436,7 @@
     {
       "id": "6",
       "name": "Bétadine",
-      "logo": "image/brands/logo6.jpg",
+      "logo": "assets/images/brands/logo6.jpg",
       "description": "Bétadine est une marque spécialisée dans les solutions antiseptiques pour prévenir et traiter les infections cutanées.",
       "tagline": "Protégez-vous avec Bétadine",
       "country": "France",
@@ -446,7 +446,7 @@
     {
       "id": "7",
       "name": "Nuxe",
-      "logo": "image/brands/logo7.jpg",
+      "logo": "assets/images/brands/logo7.jpg",
       "description": "Nuxe propose des produits de beauté et de soins naturels, offrant une expérience sensorielle unique pour une peau éclatante de santé.",
       "tagline": "Révélez votre beauté naturelle avec Nuxe",
       "country": "France",
@@ -456,7 +456,7 @@
     {
       "id": "8",
       "name": "Voltaren",
-      "logo": "image/brands/logo8.jpg",
+      "logo": "assets/images/brands/logo8.jpg",
       "description": "Voltaren est une marque réputée de gels analgésiques et anti-inflammatoires, offrant un soulagement efficace des douleurs musculaires et articulaires.",
       "tagline": "Libérez-vous de la douleur avec Voltaren",
       "country": "Suisse",
@@ -466,7 +466,7 @@
     {
       "id": "9",
       "name": "Vichy",
-      "logo": "image/brands/logo9.jpg",
+      "logo": "assets/images/brands/logo9.jpg",
       "description": "Vichy est une marque de soins de la peau et de produits solaires, offrant des solutions pour une peau saine et protégée.",
       "tagline": "Votre peau, votre force",
       "country": "France",
@@ -476,7 +476,7 @@
     {
       "id": "10",
       "name": "Zyrtec",
-      "logo": "image/brands/logo10.jpg",
+      "logo": "assets/images/brands/logo10.jpg",
       "description": "Zyrtec est une marque spécialisée dans les antiallergiques, offrant un soulagement efficace des symptômes liés aux allergies.",
       "tagline": "Dites adieu aux allergies avec Zyrtec",
       "country": "Belgique",
@@ -486,7 +486,7 @@
     {
       "id": "11",
       "name": "Lancôme",
-      "logo": "image/brands/logo11.jpg",
+      "logo": "assets/images/brands/logo11.jpg",
       "description": "Lancôme est une marque de cosmétiques de luxe, offrant des produits de haute qualité pour les soins de la peau et le maquillage.",
       "tagline": "Le luxe à la française",
       "country": "France",
@@ -496,7 +496,7 @@
     {
       "id": "12",
       "name": "Nivea",
-      "logo": "image/brands/logo12.jpg",
+      "logo": "assets/images/brands/logo12.jpg",
       "description": "Nivea est une marque mondiale de soins de la peau, offrant des produits de qualité pour l'hydratation, le nettoyage et la protection de la peau.",
       "tagline": "Nivea, la vie en beauté",
       "country": "Allemagne",
@@ -506,7 +506,7 @@
     {
       "id": "13",
       "name": "Amoxicilline",
-      "logo": "image/brands/logo13.jpg",
+      "logo": "images/brands/logo13.jpg",
       "description": "Amoxicilline est une marque de médicaments antibiotiques en comprimés, offrant une lutte efficace contre les infections bactériennes.",
       "tagline": "La confiance de l'efficacité",
       "country": "France",
@@ -516,7 +516,7 @@
     {
       "id": "14",
       "name": "Dove",
-      "logo": "image/brands/logo14.jpg",
+      "logo": "images/brands/logo14.jpg",
       "description": "Dove est une marque de produits de soins personnels, offrant des solutions douces et hydratantes pour la peau et les cheveux.",
       "tagline": "Prenez soin de vous avec Dove",
       "country": "États-Unis",
@@ -526,7 +526,7 @@
     {
       "id": "15",
       "name": "Humex",
-      "logo": "image/brands/logo15.jpg",
+      "logo": "images/brands/logo15.jpg",
       "description": "Humex est une marque spécialisée dans les médicaments contre la toux et le rhume, offrant un soulagement efficace des symptômes associés.",
       "tagline": "Libérez votre respiration avec Humex",
       "country": "France",
@@ -536,7 +536,7 @@
     {
       "id": "16",
       "name": "Colgate",
-      "logo": "image/brands/logo16.jpg",
+      "logo": "images/brands/logo16.jpg",
       "description": "Colgate est une marque renommée de produits d'hygiène bucco-dentaire, offrant des dentifrices et des brosses à dents de qualité pour une santé buccale optimale.",
       "tagline": "Le sourire de la confiance",
       "country": "États-Unis",
@@ -546,7 +546,7 @@
     {
       "id": "17",
       "name": "Urgo",
-      "logo": "image/brands/logo17.jpg",
+      "logo": "images/brands/logo17.jpg",
       "description": "Urgo est une marque spécialisée dans les produits de soins des plaies, offrant des pansements adhésifs et des solutions pour une guérison rapide et efficace.",
       "tagline": "Guérissez avec confiance avec Urgo",
       "country": "France",
@@ -556,7 +556,7 @@
     {
       "id": "18",
       "name": "Melvita",
-      "logo": "image/brands/logo18.jpg",
+      "logo": "images/brands/logo18.jpg",
       "description": "Melvita est une marque spécialisée dans les produits de beauté et de soins naturels, offrant des solutions respectueuses de l'environnement pour une peau éclatante.",
       "tagline": "La nature à votre service",
       "country": "France",
@@ -566,7 +566,7 @@
     {
       "id": "19",
       "name": "Gaviscon",
-      "logo": "image/brands/logo19.jpg",
+      "logo": "images/brands/logo19.jpg",
       "description": "Gaviscon est une marque de comprimés antiacides, offrant un soulagement efficace des brûlures d'estomac et des reflux acides.",
       "tagline": "Protégez votre estomac avec Gaviscon",
       "country": "Royaume-Uni",

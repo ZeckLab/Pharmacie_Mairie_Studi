@@ -1,1 +1,13 @@
 <p>brands-home works!</p>
+
+
+
+<div *ngIf="jsonData">
+  <!-- Add the *ngIf directive to ensure jsonData is defined before rendering the content -->
+  <div *ngFor="let brand of jsonData.brands">
+    <article>
+      <img [src]="brand.logo" alt="{{ brand.name }} logo" width="100" height="100">
+      <h2>{{ brand.name }}</h2>
+    </article>
+  </div>
+</div>
