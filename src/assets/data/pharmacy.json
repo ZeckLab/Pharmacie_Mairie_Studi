@@ -506,7 +506,7 @@
     {
       "id": "13",
       "name": "Amoxicilline",
-      "logo": "images/brands/logo13.jpg",
+      "logo": "assets/images/brands/logo13.jpg",
       "description": "Amoxicilline est une marque de médicaments antibiotiques en comprimés, offrant une lutte efficace contre les infections bactériennes.",
       "tagline": "La confiance de l'efficacité",
       "country": "France",
@@ -516,7 +516,7 @@
     {
       "id": "14",
       "name": "Dove",
-      "logo": "images/brands/logo14.jpg",
+      "logo": "assets/images/brands/logo14.jpg",
       "description": "Dove est une marque de produits de soins personnels, offrant des solutions douces et hydratantes pour la peau et les cheveux.",
       "tagline": "Prenez soin de vous avec Dove",
       "country": "États-Unis",
@@ -526,7 +526,7 @@
     {
       "id": "15",
       "name": "Humex",
-      "logo": "images/brands/logo15.jpg",
+      "logo": "assets/images/brands/logo15.jpg",
       "description": "Humex est une marque spécialisée dans les médicaments contre la toux et le rhume, offrant un soulagement efficace des symptômes associés.",
       "tagline": "Libérez votre respiration avec Humex",
       "country": "France",
@@ -536,7 +536,7 @@
     {
       "id": "16",
       "name": "Colgate",
-      "logo": "images/brands/logo16.jpg",
+      "logo": "assets/images/brands/logo16.jpg",
       "description": "Colgate est une marque renommée de produits d'hygiène bucco-dentaire, offrant des dentifrices et des brosses à dents de qualité pour une santé buccale optimale.",
       "tagline": "Le sourire de la confiance",
       "country": "États-Unis",
@@ -546,7 +546,7 @@
     {
       "id": "17",
       "name": "Urgo",
-      "logo": "images/brands/logo17.jpg",
+      "logo": "assets/images/brands/logo17.jpg",
       "description": "Urgo est une marque spécialisée dans les produits de soins des plaies, offrant des pansements adhésifs et des solutions pour une guérison rapide et efficace.",
       "tagline": "Guérissez avec confiance avec Urgo",
       "country": "France",
@@ -556,7 +556,7 @@
     {
       "id": "18",
       "name": "Melvita",
-      "logo": "images/brands/logo18.jpg",
+      "logo": "assets/images/brands/logo18.jpg",
       "description": "Melvita est une marque spécialisée dans les produits de beauté et de soins naturels, offrant des solutions respectueuses de l'environnement pour une peau éclatante.",
       "tagline": "La nature à votre service",
       "country": "France",
@@ -566,7 +566,7 @@
     {
       "id": "19",
       "name": "Gaviscon",
-      "logo": "images/brands/logo19.jpg",
+      "logo": "assets/images/brands/logo19.jpg",
       "description": "Gaviscon est une marque de comprimés antiacides, offrant un soulagement efficace des brûlures d'estomac et des reflux acides.",
       "tagline": "Protégez votre estomac avec Gaviscon",
       "country": "Royaume-Uni",
@@ -576,7 +576,7 @@
     {
       "id": "20",
       "name": "Neutrogena",
-      "logo": "image/brands/logo20.jpg",
+      "logo": "assets/images/brands/logo20.jpg",
       "description": "Neutrogena est une marque de produits de soins de la peau, offrant des solutions pour une peau nette et équilibrée.",
       "tagline": "Votre peau, notre expertise",
       "country": "États-Unis",
@@ -586,7 +586,7 @@
     {
       "id": "21",
       "name": "Centrum",
-      "logo": "image/brands/logo21.jpg",
+      "logo": "assets/images/brands/logo21.jpg",
       "description": "Centrum est une marque de comprimés multivitaminés, offrant des solutions pour répondre aux besoins nutritionnels quotidiens.",
       "tagline": "Votre santé, notre engagement",
       "country": "États-Unis",
@@ -596,7 +596,7 @@
     {
       "id": "22",
       "name": "Bioderma",
-      "logo": "image/brands/logo22.jpg",
+      "logo": "assets/images/brands/logo22.jpg",
       "description": "Bioderma est une marque de produits de soins de la peau, offrant des solutions dermatologiques pour une peau saine et équilibrée.",
       "tagline": "Votre peau, notre expertise dermatologique",
       "country": "France",
@@ -606,7 +606,7 @@
     {
       "id": "23",
       "name": "Claritin",
-      "logo": "image/brands/logo23.jpg",
+      "logo": "assets/image/brands/logo23.jpg",
       "description": "Claritin est une marque spécialisée dans les comprimés antihistaminiques, offrant un soulagement efficace des symptômes allergiques.",
       "tagline": "Dites adieu aux allergies avec Claritin",
       "country": "États-Unis",
@@ -616,7 +616,7 @@
     {
       "id": "24",
       "name": "Cetaphil",
-      "logo": "image/brands/logo24.jpg",
+      "logo": "assets/image/brands/logo24.jpg",
       "description": "Cetaphil est une marque de produits de soins de la peau recommandée par les dermatologues, offrant des solutions douces pour tous les types de peau.",
       "tagline": "Le choix des dermatologues",
       "country": "États-Unis",
