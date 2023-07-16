@@ -7,6 +7,7 @@ import { HomeComponent } from './components/home/home.component';
 import { LocalisationComponent } from './components/home/localisation/localisation.component';
 import { HoursLocalisationComponent } from './components/home/localisation/hours-localisation/hours-localisation.component';
 import { MapLocalisationComponent } from './components/home/localisation/map-localisation/map-localisation.component';
+import { AddressLocalisationComponent } from './components/home/localisation/address-localisation/address-localisation.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MapLocalisationComponent } from './components/home/localisation/map-loc
     HomeComponent,
     LocalisationComponent,
     HoursLocalisationComponent,
-    MapLocalisationComponent
+    MapLocalisationComponent,
+    AddressLocalisationComponent
   ],
   imports: [
     BrowserModule,
