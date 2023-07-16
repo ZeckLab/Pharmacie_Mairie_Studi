@@ -396,7 +396,7 @@
     {
       "id": "2",
       "name": "La Roche-Posay",
-      "logo": "assets/images/brands/logo2.jpg",
+      "logo": "assets/images/brands/la-roche-posay.jpg",
       "description": "La Roche-Posay est spécialisée dans la production de produits de beauté et de soins, offrant des solutions efficaces pour prendre soin de votre peau et de vos cheveux.",
       "tagline": "Révélez votre beauté naturelle",
       "country": "France",
@@ -406,7 +406,7 @@
     {
       "id": "3",
       "name": "Caudalie",
-      "logo": "assets/images/brands/logo3.jpg",
+      "logo": "assets/images/brands/Caudalie.jpg",
       "description": "Caudalie propose des produits de santé et de bien-être pour toute la famille, avec un accent particulier sur le soulagement des allergies et des symptômes associés.",
       "tagline": "Prenez soin de vous, naturellement",
       "country": "France",
@@ -416,7 +416,7 @@
     {
       "id": "4",
       "name": "Doliprane",
-      "logo": "assets/images/brands/logo4.jpg",
+      "logo": "assets/images/brands/doliprane.jpg",
       "description": "Doliprane est une marque reconnue de comprimés antidouleur, offrant un soulagement efficace de la douleur et de la fièvre.",
       "tagline": "Le choix de confiance pour le soulagement de la douleur",
       "country": "France",
@@ -426,7 +426,7 @@
     {
       "id": "5",
       "name": "L'Oréal Paris",
-      "logo": "assets/images/brands/logo5.jpg",
+      "logo": "assets/images/brands/LOreal.png",
       "description": "L'Oréal Paris est une marque de renom dans le domaine des cosmétiques, offrant une large gamme de produits pour les soins de la peau, les cheveux et le maquillage.",
       "tagline": "Parce que vous le valez bien",
       "country": "France",
@@ -436,7 +436,7 @@
     {
       "id": "6",
       "name": "Bétadine",
-      "logo": "assets/images/brands/logo6.jpg",
+      "logo": "assets/images/brands/Betadine.jpg",
       "description": "Bétadine est une marque spécialisée dans les solutions antiseptiques pour prévenir et traiter les infections cutanées.",
       "tagline": "Protégez-vous avec Bétadine",
       "country": "France",
