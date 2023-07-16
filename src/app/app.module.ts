@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { LocalisationComponent } from './components/home/localisation/localisation.component';
 import { HoursLocalisationComponent } from './components/home/localisation/hours-localisation/hours-localisation.component';
+import { MapLocalisationComponent } from './components/home/localisation/map-localisation/map-localisation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     LocalisationComponent,
-    HoursLocalisationComponent
+    HoursLocalisationComponent,
+    MapLocalisationComponent
   ],
   imports: [
     BrowserModule,
