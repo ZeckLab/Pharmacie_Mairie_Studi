@@ -5,7 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
-import { EventComponent } from './components/home/event/event.component';
+import { EventComponent } from './components/home/event-home/event.component';
 import { BrandsHomeComponent } from './components/home/brands-home/brands-home.component';
 
 @NgModule({
