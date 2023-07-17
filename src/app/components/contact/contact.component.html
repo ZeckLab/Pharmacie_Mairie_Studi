@@ -23,7 +23,7 @@
           required
         />
       </div>
-      <div>
+      <div >
         <!-- IL FAUT METTRE EN PLACE UN VALIDATOR POUR FORCER A METTRE UN MAIL -->
         <label for="email">Email :</label>
         <input
@@ -43,7 +43,9 @@
           required
         ></textarea>
       </div>
-      <button type="submit" [disabled]="!contactForm.valid">Envoyer</button>
+      <div>
+      <button type="submit" [disabled]="!contactForm.valid">ENVOYER MESSAGE</button>
+      </div>
     </form>
   </div>
 </div>

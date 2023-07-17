@@ -1,4 +1,22 @@
-.container{
-    
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h2 {
+  color: #f95b19;
+  text-align: center;
+}
+.contact {
+  text-align: center;
+}
+form {
+  padding: 20px;
 
+  input {
+    margin: 20px;
+  }
+}
+button {
+  width: 200px;
 }
