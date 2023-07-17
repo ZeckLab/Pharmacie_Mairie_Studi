@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 5px solid blue;
+}
+.map {
+  width: 30%;
+  border: 3px solid black;
+}
+.hours-adress {
+  width: 20%;
+  border: 2px solid red;
+}
