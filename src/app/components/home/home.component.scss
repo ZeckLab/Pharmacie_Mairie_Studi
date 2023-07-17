@@ -1,11 +1,9 @@
-.home {
-
+section {
   display: flex;
-  flex-direction: column;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-  background-color: #f7f7f7;
+  justify-content: center;
+}
 
+.home {
   @media screen and (max-width: 768px) {
     padding: 4rem;
   }
@@ -98,4 +96,7 @@
     font-style: italic;
     color: #6f6f6f;
   }
+}
+.hours {
+  text-align: left;
 }
