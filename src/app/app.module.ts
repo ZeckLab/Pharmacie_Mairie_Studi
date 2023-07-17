@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { PrestationComponent } from './components/prestation/prestation.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    PrestationComponent
   ],
   imports: [
     BrowserModule,
