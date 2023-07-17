@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .home {
   display: flex;
   flex-direction: column;
@@ -96,4 +97,20 @@
     font-style: italic;
     color: #6f6f6f;
   }
+=======
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.map {
+  width: 50%;
+}
+.hours-adress {
+  width: 50%;
+}
+.adress {
+  margin-left: 30%;
+>>>>>>> 6aced3dd618766a0fac97185e627cf7aaf8231b2
 }
