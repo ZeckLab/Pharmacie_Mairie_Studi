@@ -19,6 +19,5 @@ export class BrandsHomeComponent implements OnInit {
       // Show only the first 6 elements of the "brands" array
       this.jsonData.brands = this.jsonData.brands.slice(0, 6);
     });
-
   }
 }

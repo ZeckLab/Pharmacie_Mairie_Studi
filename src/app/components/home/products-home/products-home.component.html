@@ -1,1 +1,16 @@
 <p>products-home works!</p>
+
+<div class="product-container">
+  <div class="product-item" *ngFor="let promotion of promotions">
+    <img [src]="promotion.image" alt="Image">
+    <div class="product-info">
+      <p>{{ promotion.title }}</p>
+      <p>Category: {{ promotion.category }}</p>
+      <p>Subcategory: {{ promotion.subcategory }}</p>
+      <p>Prix: <span [style.color]="promotion.promotion ? 'red' : 'black'" [style.textDecoration]="promotion.promotion ? 'line-through' : 'none'">
+        {{ promotion.price | currency:'EUR' }}</span></p>
+      <p>Prix Promo: <span [style.color]="promotion.promotion ? 'green' : 'black'">
+        {{ promotion.sale_price | currency:'EUR' }}</span></p>
+    </div>
+  </div>
+</div>
