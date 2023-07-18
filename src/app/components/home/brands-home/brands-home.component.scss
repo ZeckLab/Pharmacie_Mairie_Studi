@@ -14,7 +14,7 @@
 
   .brand-card {
     // En mode PC, affichez trois logos sur la même ligne
-    flex-basis: calc(100vw - 1rem);
+    flex-basis: calc(100vw - 5rem);
     display: flex; // Ajoutez cette ligne pour afficher les logos en ligne
     flex-wrap: wrap; // Ajoutez cette ligne pour que les logos se mettent en ligne sur les petits écrans
     justify-content: space-between; // Ajoutez cette ligne pour que les logos soient espacés de manière égale
