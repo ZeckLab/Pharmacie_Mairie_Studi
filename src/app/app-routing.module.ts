@@ -7,10 +7,10 @@ import { PartnersPageComponent } from './components/partners-page/partners-page.
 import { PrestationsPageComponent } from './components/prestations-page/prestations-page.component';
 
 const routes: Routes = [
+  { path: '', component: HomeComponent },
   { path: 'products', component: ProductsPageComponent},
   { path: 'partners', component: PartnersPageComponent},
   { path: 'prestations', component: PrestationsPageComponent},
-  { path: '', component: HomeComponent },
   { path: '**', component: PageNotFoundComponent },
 ];
 
