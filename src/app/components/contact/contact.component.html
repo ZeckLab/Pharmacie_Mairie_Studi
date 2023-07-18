@@ -1,3 +1,4 @@
+<!--
 <div class="container">
   <div class="title">
     <H2>NOUS CONTACTER</H2>
@@ -23,9 +24,14 @@
           required
         />
       </div>
+<<<<<<< HEAD
       <div >
+=======
+      <div>
+      -->
+>>>>>>> 71d8c23f4b46f66540e6cbffd0b7b70dfe74c248
         <!-- IL FAUT METTRE EN PLACE UN VALIDATOR POUR FORCER A METTRE UN MAIL -->
-        <label for="email">Email :</label>
+       <!-- <label for="email">Email :</label>
         <input
           type="email"
           id="email"
@@ -49,3 +55,37 @@
     </form>
   </div>
 </div>
+-->
+
+<section id="contact">
+  <div class="container">
+    <header class="text-center mb-5">
+      <h2 class="heading">Contactez moi</h2>
+    </header>
+    <div class="row">
+      <div class="col-lg-7 mx-auto">
+        <form action="https://formsubmit.co/pharmacie.mairie.montreux@gmail.com" method="POST">
+          <div class="form-group">
+            <label for="firstname">Prénom:</label>
+            <input class="form-control" type="text" id="firstname" name="firstname" placeholder="Votre prénom" required>
+          </div>
+          <div class="form-group">
+            <label for="lastname">Nom:</label>
+            <input class="form-control" type="text" id="lastname" name="lastname" placeholder="Votre nom" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input class="form-control" type="email" id="email" name="email" placeholder="Votre email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea class="form-control" id="message" name="message" rows="7" placeholder="Votre message" required></textarea>
+          </div>
+          <div class="form-group text-center">
+            <button class="btn btn-outline-primary" type="submit">Envoyer</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

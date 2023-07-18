@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container {
   display: flex;
   flex-direction: column;
@@ -19,4 +20,97 @@ form {
 }
 button {
   width: 200px;
+=======
+/* Global styles for body and container */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Styles for the title section */
+#contact .heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Styles for the form */
+#contact form {
+  margin-top: 20px;
+}
+
+#contact form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact form label {
+  display: block;
+  font-weight: bold;
+}
+
+#contact form input,
+#contact form select,
+#contact form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact form textarea {
+  resize: vertical;
+}
+
+#contact form .input-group {
+  display: flex;
+}
+
+#contact form .input-group select {
+  flex: 1;
+  margin-right: 10px;
+}
+
+/* Button styles */
+#contact form .btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#contact form .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  #contact .heading {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #contact .heading {
+    font-size: 24px;
+  }
+
+  #contact form .input-group {
+    flex-direction: column;
+  }
+
+  #contact form .input-group select {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+>>>>>>> 71d8c23f4b46f66540e6cbffd0b7b70dfe74c248
 }
