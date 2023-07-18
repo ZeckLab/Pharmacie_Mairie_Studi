@@ -12,6 +12,11 @@ import { AddressLocalisationComponent } from './components/home/localisation/add
 import { ProductsHomeComponent } from './components/home/products-home/products-home.component';
 import { EventHomeComponent } from './components/home/event-home/event-home.component';
 import { BrandsHomeComponent } from './components/home/brands-home/brands-home.component';
+import { HeaderComponent } from './components/header/header.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { ProductsPageComponent } from './components/products-page/products-page.component';
+import { PartnersPageComponent } from './components/partners-page/partners-page.component';
 
 
 @NgModule({
@@ -26,6 +31,11 @@ import { BrandsHomeComponent } from './components/home/brands-home/brands-home.c
     MapLocalisationComponent,
     AddressLocalisationComponent,
     ProductsHomeComponent
+    HeaderComponent,
+    PageNotFoundComponent,
+    FooterComponent,
+    ProductsPageComponent,
+    PartnersPageComponent
   ],
   imports: [
     BrowserModule,
