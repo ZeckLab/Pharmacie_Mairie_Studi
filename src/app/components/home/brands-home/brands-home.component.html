@@ -1,0 +1,13 @@
+<section>
+  <h2 class="section-title"><span>p</span>artenaires</h2>
+  <div class="container">
+    <div *ngIf="jsonData" class="brand-card">
+      <!-- Add the *ngIf directive to ensure jsonData is defined before rendering the content -->
+      <div class="brand" *ngFor="let brand of jsonData.brands">
+        <article>
+          <img [src]="brand.logo" alt="{{ brand.name }} logo">
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
