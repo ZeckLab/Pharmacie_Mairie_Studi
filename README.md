@@ -14,9 +14,12 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`. You can also use : `ng g c component-name` for a quickly generated comopnent.
-For example : If you want a HomeComponent, you write : ng g c home
-                HoursLocalisationComponent : ng g c hours-localisation
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`. 
+You can also use : `ng g c component-name` for a quickly generated comopnent.
+
+For example : 
+- If you want a HomeComponent, you write : ng g c home
+- For a children of HomeComponent, you write HoursLocalisationComponent : ng g c hours-localisation
 
 ## Build
 
