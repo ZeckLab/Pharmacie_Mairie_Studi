@@ -41,9 +41,14 @@ import { HttpClientModule } from '@angular/common/http';
     ContactComponent,
     FooterComponent,
     ProductsPageComponent,
-    PartnersPageComponent
+    PartnersPageComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
+  ],
   providers: [{ provide: LOCALE_ID, useValue: 'fr-FR' }],
   bootstrap: [AppComponent],
 })
