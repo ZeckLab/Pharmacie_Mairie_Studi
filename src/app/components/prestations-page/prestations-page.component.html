@@ -1,1 +1,17 @@
-<h1>Page des prestations</h1>
+<section>
+  <div *ngIf="prestation && prestation.length > 0" class="container">
+    <div class="event-container">
+      <div class="event-image-container">
+        <img [src]="prestation[0].image" alt="Event Image" class="event-image" />
+      </div>
+      <div class="event-details">
+        <h3>{{ prestation[0].title }}</h3>
+        <p>{{ prestation[0].description }}</p>
+      </div>
+    </div>
+  </div>
+  <!-- Add a message for when there are no prestations -->
+  <div *ngIf="!prestation || prestation.length === 0" class="container">
+    <p>No prestations available.</p>
+  </div>
+</section>

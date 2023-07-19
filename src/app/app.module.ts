@@ -15,14 +15,13 @@ import { EventHomeComponent } from './components/home/event-home/event-home.comp
 import { BrandsHomeComponent } from './components/home/brands-home/brands-home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
-import { PrestationComponent } from './components/prestation/prestation.component';
-
 import { ContactComponent } from './components/contact/contact.component';
 import { FormsModule } from '@angular/forms';
 import { FooterComponent } from './components/footer/footer.component';
 import { ProductsPageComponent } from './components/products-page/products-page.component';
 import { PartnersPageComponent } from './components/partners-page/partners-page.component';
 import { HttpClientModule } from '@angular/common/http';
+import {PrestationsPageComponent} from "./components/prestations-page/prestations-page.component";
 
 @NgModule({
   declarations: [
@@ -37,11 +36,11 @@ import { HttpClientModule } from '@angular/common/http';
     ProductsHomeComponent,
     HeaderComponent,
     PageNotFoundComponent,
-    PrestationComponent,
     ContactComponent,
     FooterComponent,
     ProductsPageComponent,
     PartnersPageComponent,
+    PrestationsPageComponent
   ],
   imports: [
     BrowserModule,
