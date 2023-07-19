@@ -7,5 +7,14 @@ import { Component } from '@angular/core';
 })
 export class ContactComponent {
 
+  selectedCountryCode: string = '';
+  formData = {
+    firstname: '',
+    lastname: '',
+    email: '',
+    message: ''
+  };
+
+
 
 }
