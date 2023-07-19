@@ -14,10 +14,4 @@ export class ContactComponent {
     email: '',
     message: ''
   };
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 983796748380f2334414c41a9fe4481f2c87999e
-
 }
