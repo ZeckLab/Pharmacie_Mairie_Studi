@@ -1,4 +1,6 @@
-* {
+@import "../../../assets/styles/color";
+
+section {
   width: 95%;
   display: flex;
   flex-direction: column;
@@ -21,21 +23,15 @@ h2 {
 form {
   padding: 20px;
 
-  input {
+  input,textarea {
     margin: 20px;
+
+
   }
 }
 button {
   width: 200px;
 }
-
-/* Global styles for body and container */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
 .container {
   width: 90%;
   max-width: 1200px;
@@ -47,6 +43,9 @@ body {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 20px;
+  span {
+    font-size: 2.5rem;
+  }
 }
 
 /* Styles for the form */
@@ -61,6 +60,7 @@ body {
 #contact form label {
   display: block;
   font-weight: bold;
+  margin-left: 20px;
 }
 
 #contact form input,
@@ -70,6 +70,17 @@ body {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+}
+#contact form textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+.text-center {
+  display: flex;
+  justify-content: center;
 }
 
 #contact form textarea {
@@ -90,16 +101,17 @@ body {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background-color: #fff;
-  color: #f95b19;
+  background-color: $text-color;
+  color: $primary-color;
   cursor: pointer;
-  border: 3px solid #f95b19;
+  border: 3px solid $primary-color;
   border-radius: 10px;
   transition: background-color 0.3s ease;
 }
 
 #contact form .btn:hover {
-  background-color: #0056b3;
+  background-color: $primary-color;
+  color: $text-color;
 }
 
 /* Responsive adjustments */

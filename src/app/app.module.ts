@@ -22,7 +22,6 @@ import { ProductsPageComponent } from './components/products-page/products-page.
 import { PartnersPageComponent } from './components/partners-page/partners-page.component';
 import { HttpClientModule } from '@angular/common/http';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,18 +38,11 @@ import { HttpClientModule } from '@angular/common/http';
     ContactComponent,
     FooterComponent,
     ProductsPageComponent,
-    PartnersPageComponent
+    PartnersPageComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FormsModule
-    HttpClientModule
-  ],
-  providers: [
-    { provide: LOCALE_ID, useValue: 'fr-FR'}
-  ],
-  bootstrap: [AppComponent]
+  imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
+  providers: [{ provide: LOCALE_ID, useValue: 'fr-FR' }],
+  bootstrap: [AppComponent],
 })
 export class AppModule {
   constructor() {
