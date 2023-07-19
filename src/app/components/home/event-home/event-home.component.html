@@ -1,0 +1,15 @@
+<section>
+  <h2 class="section-title"><span>e</span>venements</h2>
+  <div *ngIf="event && event.length > 0" class="container">
+    <div class="event-container">
+      <div class="event-image-container">
+        <img [src]="event[0].image" alt="Event Image" class="event-image" />
+      </div>
+      <div class="event-details">
+        <h3><p class="event-date">Le {{ event[0].date | date: "dd MMMM yyyy" }}</p>
+        {{ event[0].title }}</h3>
+        <p>{{ event[0].description }}</p>
+      </div>
+    </div>
+  </div>
+</section>
