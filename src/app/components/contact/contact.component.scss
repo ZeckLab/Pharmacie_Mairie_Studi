@@ -1,0 +1,169 @@
+@import "../../../assets/styles/color";
+
+section {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h2 {
+  color: $primary-color;
+  text-align: center;
+}
+.contact {
+  text-align: center;
+}
+form {
+  padding: 20px;
+
+  input,textarea {
+    margin: 20px;
+
+
+  }
+}
+button {
+  width: 200px;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Styles for the title section */
+#contact .heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  span {
+    font-size: 2.5rem;
+  }
+}
+
+/* Styles for the form */
+#contact form {
+  margin-top: 20px;
+}
+
+#contact form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact form label {
+  display: block;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+#contact form input,
+#contact form select,
+#contact form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#contact form textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+.text-center {
+  display: flex;
+  justify-content: center;
+}
+
+#contact form textarea {
+  resize: vertical;
+}
+
+#contact form .input-group {
+  display: flex;
+}
+
+#contact form .input-group select {
+  flex: 1;
+  margin-right: 10px;
+}
+
+/* Button styles */
+#contact form .btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: $text-color;
+  color: $primary-color;
+  cursor: pointer;
+  border: 3px solid $primary-color;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#contact form .btn:hover {
+  background-color: $primary-color;
+  color: $text-color;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  #contact .heading {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #contact .heading {
+    font-size: 24px;
+  }
+
+  #contact form .input-group {
+    flex-direction: column;
+  }
+
+  #contact form .input-group select {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 390px) {
+  #contact {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #contact .heading {
+    font-size: 24px;
+  }
+
+  #contact form .input-group {
+    flex-direction: column;
+  }
+
+  #contact form .input-group select {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  #contact {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

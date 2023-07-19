@@ -1,0 +1,25 @@
+<section>
+  <h2 class="section-title"><span>P</span>romotions</h2>
+  <div class="product-container">
+    <div class="product-item" *ngFor="let promotion of promotions">
+      <div class="product-image">
+        <img [src]="'assets/' + promotion.image" alt="Image">
+      </div>
+      <div class="product-info">
+        <p class="title">{{ promotion.title }}</p>
+        <!--<p>Category: {{ promotion.category }}</p>
+        <p>Subcategory: {{ promotion.subcategory }}</p>-->
+        <p>{{promotion.summary}}</p>
+        <div class="product-price">
+          <p class="price">Prix: <span [style.color]="promotion.promotion ? 'red' : 'black'"
+              [style.textDecoration]="promotion.promotion ? 'line-through' : 'none'">
+              {{ promotion.price | currency: 'EUR' }}
+            </span></p>
+          <p>Prix Promo: <span [style.color]="promotion.promotion ? 'green' : 'black'">
+              {{ promotion.sale_price | currency: 'EUR' }}
+            </span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
