@@ -11,10 +11,9 @@ const routes: Routes = [
   { path: 'products', component: ProductsPageComponent},
   { path: 'partners', component: PartnersPageComponent},
   { path: 'prestations', component: PrestationsPageComponent},
-  { path: '', component: HomeComponent },
   { path: 'contact', component: ContactComponent },
+  { path: '', component: HomeComponent },
   { path: '**', component: PageNotFoundComponent }
-
 ];
 
 @NgModule({
