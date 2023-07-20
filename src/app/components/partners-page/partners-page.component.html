@@ -4,13 +4,16 @@
       <!-- Add the *ngIf directive to ensure jsonData is defined before rendering the content -->
       <div class="brand" *ngFor="let brand of jsonData.brands">
         <article>
-          <a [href]="brand.website">
-            <img [src]="brand.logo" alt="{{ brand.name }}">
-          </a>
-          <br>
-          <span>{{ brand.tagline }}</span>
-          <p>{{brand.description}}</p>
-          <p>{{brand.country}}</p>
+          <div class="logo">
+            <a [href]="brand.website">
+              <img [src]="brand.logo" alt="{{ brand.name }}">
+            </a>
+          </div>
+          <div class="content">
+            <span>{{ brand.tagline }}</span>
+            <p>{{brand.description}}</p>
+            <p>{{brand.country}}</p>
+          </div>
         </article>
       </div>
     </div>
