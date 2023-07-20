@@ -486,7 +486,7 @@
     {
       "id": "11",
       "name": "Lancôme",
-      "logo": "assets/images/brands/lancome.png",
+      "logo": "assets/images/brands/Lancome.png",
       "description": "Lancôme est une marque de cosmétiques de luxe, offrant des produits de haute qualité pour les soins de la peau et le maquillage.",
       "tagline": "Le luxe à la française",
       "country": "France",
@@ -502,16 +502,6 @@
       "country": "Allemagne",
       "website": "https://www.nivea.fr/",
       "articles": ["25"]
-    },
-    {
-      "id": "13",
-      "name": "Amoxicilline",
-      "logo": "assets/images/brands/logo13.jpg",
-      "description": "Amoxicilline est une marque de médicaments antibiotiques en comprimés, offrant une lutte efficace contre les infections bactériennes.",
-      "tagline": "La confiance de l'efficacité",
-      "country": "France",
-      "website": "https://www.amoxicilline.fr/",
-      "articles": ["13"]
     },
     {
       "id": "14",
@@ -606,7 +596,7 @@
     {
       "id": "23",
       "name": "Claritin",
-      "logo": "assets/image/brands/Claritin.png",
+      "logo": "assets/images/brands/Claritin.png",
       "description": "Claritin est une marque spécialisée dans les comprimés antihistaminiques, offrant un soulagement efficace des symptômes allergiques.",
       "tagline": "Dites adieu aux allergies avec Claritin",
       "country": "États-Unis",
@@ -616,7 +606,7 @@
     {
       "id": "24",
       "name": "Cetaphil",
-      "logo": "assets/image/brands/Cetaphil.png",
+      "logo": "assets/images/brands/Cetaphil.png",
       "description": "Cetaphil est une marque de produits de soins de la peau recommandée par les dermatologues, offrant des solutions douces pour tous les types de peau.",
       "tagline": "Le choix des dermatologues",
       "country": "États-Unis",
@@ -626,7 +616,7 @@
     {
       "id": "25",
       "name": "Advil",
-      "logo": "assets/image/brands/advil.png",
+      "logo": "assets/images/brands/advil.png",
       "description": "Advil est une marque de comprimés analgésiques, offrant un soulagement rapide et efficace de la douleur.",
       "tagline": "Laissez Advil prendre soin de votre douleur",
       "country": "États-Unis",
