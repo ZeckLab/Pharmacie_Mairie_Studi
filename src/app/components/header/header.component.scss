@@ -1,130 +1,133 @@
 @import "../../../assets/styles/_color.scss";
 
 header {
-    background-color: $primary-color;
-    box-shadow: 0 1px 2px rgba(208, 64, 5, 0.2);
     width: 100%;
     z-index: 999;
     vertical-align: middle;
     height: 7rem;
     margin: 0;
-}
 
-header .flex-header {
-    /*conteneur flex*/
-    display: flex;
-    justify-content: space-between;
-}
+    .flex-header {
+        /*conteneur flex*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 
-.logo {
-    padding: 1rem;
-    width: 20%;
-}
+        .title {
+            padding: 1rem;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $text-color;
+            margin: 0;
+            color: $primary-color;
+            height: 3rem;
 
-.logo img {
-    height: 5rem;
+            .logo img {
+                height: 3rem;
+                padding: 0 1rem;
+            }
+        }
+    }
 }
 
 nav {
     margin: auto;
-    background: $primary-color;
-    height: 100%;
-    width: 80%;
-}
+    background-color: $primary-color;
+    box-shadow: 0 1px 2px $primary-color;
+    height: 4rem;
+    width: 100%;
 
-nav .main_pages {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100%;
-}
-
-nav .main_pages a {
-    width: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50%;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1.4rem;
-    color: $text-color;
-    margin: 0 1rem;
-    font-weight: bold;
-}
-
-nav .main_pages a:hover {
-    transition: 0.5s;
-    font-size: 1.7rem;
-    border-bottom: $text-color 0.2rem solid;
-    font-weight: bold;
-}
-
-label,
-#toggle {
-    display: none;
-}
-
-@media all and (max-width: 950px) {
-    header {
-        width: 100%;
-        height: 4rem;
-    }
-
-    header .flex-header {
+    .main_pages {
         display: flex;
-        justify-content: space-between;
-    }
-
-    .logo {
-        padding: 0.7rem;
+        justify-content: space-evenly;
+        align-items: center;
         height: 100%;
-        width: 50%;
+
+        a {
+            width: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50%;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 1.4rem;
+            color: $text-color;
+            margin: 0 1rem;
+            font-weight: bold;
+
+            &:hover {
+                transition: 0.5s;
+                font-size: 1.7rem;
+                border-bottom: $text-color 0.2rem solid;
+                font-weight: bold;
+            }
+        }
     }
 
-    .logo img {
-        height: 2.6rem;
+    label,
+    #toggle {
+        display: none;
     }
+}
+
+@media all and (max-width: 800px) {
 
     nav {
-        height: 100%;
         padding-right: 0.6rem;
-        width: 14rem;
         margin: 0;
-    }
 
-    nav .main_pages {
-        display: none;
-        flex-direction: column;
-        background: $primary-color;
-        position: relative;
-        left: 0.6rem;
-        width: 100%;
-    }
+        .main_pages {
+            display: none;
+            flex-direction: column;
+            background: $primary-color;
+            position: relative;
+            width: 14rem;
+            height: auto;
 
-    nav .main_pages a {
-        width: 80%;
-        font-size: 1.2rem;
-        height: 2.5rem;
-        padding: 0.2rem 0;
-        margin: 0 0 0.3rem 0;
-    }
+            a {
+                width: 80%;
+                font-size: 1.2rem;
+                height: 2.5rem;
+                padding: 0.2rem 0;
+                margin: 0 0 0.3rem 0;
 
-    nav .main_pages a:hover {
-        font-size: 1.4rem;
-    }
+                &:hover {
+                    font-size: 1.4rem;
+                }
+            }
+        }
 
-    label {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        font-size: 2.5rem;
-        font-weight: 800;
-        color: $text-color;
-        cursor: pointer;
-    }
+        label {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            font-size: 2.5rem;
+            font-weight: 800;
+            padding-left: 0.5rem;
+            color: $text-color;
+            cursor: pointer;
+        }
 
-    #toggle:checked+.main_pages {
-        display: flex;
+        #toggle:checked+.main_pages {
+            display: flex;
+        }
+    }
+}
+
+@media all and (max-width: 500px) {
+    header {
+        .flex-header {
+            .title {
+                justify-content: flex-start;
+
+                h1 {
+                    font-size: 1.8rem;
+                    padding: 0 0.25rem;
+                }
+            }
+        }
     }
 }
