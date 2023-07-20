@@ -18,9 +18,9 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
 import { ContactComponent } from './components/contact/contact.component';
 import { FormsModule } from '@angular/forms';
 import { FooterComponent } from './components/footer/footer.component';
-import { ProductsPageComponent } from './components/products-page/products-page.component';
 import { PartnersPageComponent } from './components/partners-page/partners-page.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ProductsPageComponent } from './components/products-page/products-page.component';
 
 @NgModule({
   declarations: [
@@ -37,8 +37,8 @@ import { HttpClientModule } from '@angular/common/http';
     PageNotFoundComponent,
     ContactComponent,
     FooterComponent,
-    ProductsPageComponent,
     PartnersPageComponent,
+    ProductsPageComponent
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [{ provide: LOCALE_ID, useValue: 'fr-FR' }],
